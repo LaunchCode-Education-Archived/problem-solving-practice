@@ -15,6 +15,21 @@ If you haven't already, clone this repository to your computer:
 $ git clone https://github.com/LaunchCodeEducation/problem-solving-practice.git
 ```
 
+Or, you can make your own file and directory. From a terminal:
+
+```nohighlight
+$ mkdir problem-solving
+$ cd problem-solving
+$ touch shapes.py
+$ code .
+```
+
+You can then write your code in VS Code. To run the file:
+
+```nohighlight
+$ python shapes.py
+```
+
 If you'd like to be able to push your code to your own GitHub repository, fork the repository first, and then clone your fork.
 
 Then, dig in:
