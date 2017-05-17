@@ -5,6 +5,7 @@
 - [Principles of Problem Solving](principles/README.md)
 - [Non-coding Problems](noncoding/README.md)
 - [Shapes](shapes/README.md)
+- [More Problems](more-problems/README.md)
 
 ## How To Solve Coding Problems
 
