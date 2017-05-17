@@ -1,6 +1,6 @@
 # Shapes
 
-These problems are variations on a theme. Each will have you print a shape to the console using `#` (hash) characters.
+These problems are variations on a theme. Each will have you return a string that consists of a shape built out of `#` (hash) characters.
 
 1. Write a function `line(n)` that returns a line with exactly `n` hashes.
     ```python
@@ -92,4 +92,20 @@ These problems are variations on a theme. Each will have you print a shape to th
       #####
      #######
     #########
+    ```
+1. Write a function `diamond(n)` that returns a diamond where the triangle formed by the top portion has height `n`. Notice that this means the diamond has `2n - 1` rows.
+    ```python
+    print(diamond(5))
+    ```
+    **Output:**
+    ```
+        #
+       ###
+      #####
+     #######
+    #########
+     #######
+      #####
+       ###
+        #
     ```
