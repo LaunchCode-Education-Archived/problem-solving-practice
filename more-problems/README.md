@@ -18,7 +18,7 @@ These are rated at level 1-3:
 - (Level 2) Write a function that takes a single string argument and returns the string, reversed:
     ```python
     #Should pring "edoChcnuaL"
-    print(revers("LaunchCode"))
+    print(reverse("LaunchCode"))
 - (Level 3) Write a function that checks whether or not a string is the same backwards as it is forwards.
     ```python
     # Should each print True
