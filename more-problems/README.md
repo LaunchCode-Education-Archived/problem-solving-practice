@@ -29,17 +29,6 @@ These are rated at level 1-3:
     print(is_symmetric("abc"))
     print(is_symmetric("abc cbaa"))
     ```
-- (Level 3) Write a funciton that checks whether or not a string is a [palindrome](https://en.wikipedia.org/wiki/Palindrome).
-    ```python
-    # Should each print True
-    print(is_palindrome("A man, a plan, a canal, Panama!"))
-    print(is_palindrome("So Many Dynamos"))
-    print(is_palindrome("Was it a car or a cat I saw?"))
-
-    # Should each print False
-    print(is_palindrome("aba#"))
-    print(is_palindrome("abc cbaa"))
-    ```
 
 ### Filtering
 
