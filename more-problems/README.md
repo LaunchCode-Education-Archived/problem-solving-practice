@@ -43,10 +43,10 @@ These are rated at level 1-3:
     # Should print 8
     print(count('aardvarkaaaaa', 'a'))
     ```
-- (Level 2) Write a function that takes three arguments, a string and two characters. The function should return the result of replacing all occurances of the first character with the second.
+- (Level 2) Write a function that takes three arguments: a string and two characters. The function should return the result of replacing all occurances of the first character with the second.
     ```python
     # Should print "xxrdvxrkxxxxx"
-    print(swap('aardvarkaaaaa', 'a', 'x'))
+    print(replace('aardvarkaaaaa', 'a', 'x'))
     ```
 ## Integer List Problems
 
@@ -67,19 +67,17 @@ These are rated at level 1-3:
 
 ## Positive or Negative
 
-- (Level 1) Write a program that asks the user for an integer and prints if it is positive or negative
-- (Level 2) Write a program that prompts the user for 10 integers and prints only the positive ones
-- (Level 3) Write a program that prompts the user for 10 integers. I should then ask the user if they want "positive" or "negative", and based on the response, prints the sum of all positive numbers or the sum of all negative numbers
+- (Level 1) Write a function that takes an integer and prints "positive" if it's positive, "negative" if it's negative, and prints nothing if it's 0.
+- (Level 2) Write a function that takes a list of integers and prints only the positive ones.
+- (Level 3) Write a function that takes a list of integers, along with a string that should be one of "positive" or "negative". Based on this second argument, print all of the integers that are positive or negative.
 
 ## String Compression (Level 3)
 
-Write a function `compress` that takes a single string argument that "compresses" it according to the following rules:
+Write a function `compress` that takes a single string argument that consists only of letters, and "compresses" it according to the following rules:
 
-> When a character is repeated more than 2 times, such as 'aaa', replace it with '3a'.
+> When a letter is repeated more than once, such as 'aaa', replace it with '3a'. In general, if there are `n` consecutive occurrences of the letter `x`, replace it with 'nx'.
 
 For example, the string `"aaaaaabbbccccc"` will be compressed to be `"6a3b5c"`.
-
-You may assume that the string doesn't contain any numbers, so that there is no ambiguity in the resulting string.
 
 Then write a funciton `uncompress` that undoes this process. Be sure to run tests like:
 
@@ -94,3 +92,4 @@ print(uncompress(compress(uncompressed_str)) == uncompressed_str)
 print(compress(uncompress(compressed_str)) == compressed_str)
 ```
 
+> _Hint:_ You might find the `str.isdigit()` method useful. For a given string, it retruns `True` or `False` depending on whether or the string can be converted to an integer. For example, `'5'.isdigit()` returns `True`, while `'a'.isdigit()` returns `False`.
